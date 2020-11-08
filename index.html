@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <title>AEI Remo Card</title>
+</head>
+<script src="js/jquery.js"></script>
+<script src="js/html2canvas.js"></script>
+
+<body>
+    <div class="container">
+        <form id="details">
+            <fieldset>
+                <label for="">Name</label>
+                <input type="text" id="content2">
+            </fieldset>
+            <input type="submit" value="Create Image" id="createImg">
+        </form>
+        <div class="dp"
+            style="padding: 0; border-radius: 2rem;  background-color:rgb(6, 39, 110); color: #000; width: 1200px; height: 1200px; font-family: sans-serif;  padding-top: 15px;"
+            id="dp">
+            <img src="img/aei.jpg"
+                style="width: 500px; margin-left: 300px; margin-top: 20px; padding: 0; position: absolute;">
+
+            <div class="content"
+                style="background-color: #fff; display: block; justify-content: space-around; position: absolute; margin-top: 200px; width:1000px; height:800px; margin-left: 90px; border-radius: 1.5rem; bottom:1; left:1; z-index: 1; text-align: center;">
+
+                <!-- <img src=".png" width="200px" style="left: 0px; top: 0px; position: absolute;"> -->
+
+                <h1 style="font-size: 4rem; margin-top: 70px;margin-bottom: 3px;">Academic Excellence Initiative</h1><small style="font-size: 3rem; margin-top: 70px;margin-bottom: 3px;">Remo Zone</small>
+                
+                <p style="font-size: 2.8rem; text-align: left; margin-left: 20px; margin-top: 30px;">Dear <i id="content2Text">Alhaji Taiwo</i>,  </p>
+
+                <p style="font-size: 2.6rem; margin-left: 35px; margin-right: 35px; line-height: 3.8rem;">
+                    AEI Remo Zone require your financial assistance towards successful hosting of her 2020 School Leavers' Seminar and Youth Orientation Programme (YOP), scheduled to hold on the 14th, 21st, and 22nd of November, 2020. 
+                </p>
+
+                <p style="font-size: 2rem; margin-left: 35px; margin-right: 35px; text-align: right;">
+                    <b style="color: coral;" >Guaranty Trust Bank</b>  <br>
+                    Adeyemi Monsuru Olalekan <br>
+                    <b style="font-family: monospace; font-size: 3rem; letter-spacing: 0.2rem;">0218449467</b> 
+                </p>
+            </div>
+
+            <div class="bottom-logo"
+                style="position: absolute; margin-top: 1109px; margin-left: 300px; z-index: 1;">
+                <h1 style="color: #fff; font-family: 'Courier New', Courier, monospace;">
+                    <i>Excellence Our Duty, Our Right..</i>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <button id="preview">Preview DP</button>
+    <br>
+    <a id="download" href="#">Download DP</a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
